@@ -16,7 +16,7 @@
   } else if (typeof exports !== 'undefined') {
     var _, $;
     try { _ = require('underscore'); } catch(e) { }
-    try { $ = require('zepto-node')(window); } catch(e) { }
+    try { $ = require('jquery'); } catch(e) { }
     factory(root, exports, _, $);
   } else {
     root.Backbone = root.Exoskeleton = factory(root, {}, root._, (root.jQuery || root.Zepto || root.ender || root.$));
