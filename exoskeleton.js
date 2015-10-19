@@ -12,7 +12,7 @@
   if (typeof exports !== 'undefined') {
     var _, $;
     try { _ = require('underscore'); } catch(e) { }
-    try { $ = require('npm-zepto'); } catch(e) { }
+    try { $ = require('zepto-browserify').$; } catch(e) { }
     factory(root, exports, _, $);
   } else if (typeof define === 'function' && define.amd) {
     define(['underscore', 'jquery', 'exports'], function(_, $, exports) {

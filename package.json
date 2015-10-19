@@ -9,6 +9,10 @@
   "devDependencies": {
     "phantomjs": "~1.9.2"
   },
+  "peerDependencies": {
+    "zepto-browserify": "^1.0.0",
+    "underscore": "^1.8.3"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/paulmillr/exoskeleton.git"
